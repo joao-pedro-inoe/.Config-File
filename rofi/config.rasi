@@ -1,0 +1,23 @@
+/**
+ *
+ * Author : Aditya Shakya (adi1090x)
+ * Github : @adi1090x
+ * 
+ * Rofi Theme File
+ * Rofi Version: 1.7.3
+ **/
+
+/*****----- Configuration -----*****/
+configuration {
+	modi:            	 "drun";
+    	show-icons:        	true;
+    	display-drun:          	 "";
+    	display-run:           	 "";
+    	display-filebrowser:   	 "";
+    	display-window:        	 "";
+	drun-display-format:   	 "{name}";
+	window-format:     	 "{w} · {c} · {t}";
+	font:			"CaskaydiaCove Nerd Font";
+	icon-theme:		"Papirus Dark";
+}
+@theme "/themes/teste"
