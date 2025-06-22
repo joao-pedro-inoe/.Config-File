@@ -1,0 +1,60 @@
+* {
+	background-image: none;
+	box-shadow: none;
+}
+
+window {
+	 background-color: rgba(255, 175, 101, 0.3);
+/*  background-color: blue; */
+}
+
+button {
+  font-family:'CaskaydiaCove Nerd Font' ;
+  color: #dadfef;
+	font-size: 15px;
+	background-color:#e26546;
+	border-style: none;
+	background-repeat: no-repeat;
+	background-position: center;
+	border-radius:0px;
+	margin-top:60px;
+  margin-bottom: 60px;
+	text-shadow: 0px 0px;
+	box-shadow: 0px 0px;
+  background-size: 30%;
+}
+
+button:focus, button:active, button:hover {
+	/* 20% Overlay 2, 80% mantle */
+	background-color: rgba(0, 0, 0, 0.3);
+	outline-style: none;
+  margin-top:20px;
+  margin-bottom:21px;
+  border-radius: 30px;
+  background-size: 50%;
+}
+
+#lock {
+    background-image: url("./icons/lock.png");
+    border-radius:30px 0px 0px 30px;
+  }
+
+#logout {
+    background-image: url("./icons/logout.png"); 
+}
+
+#shutdown {
+    background-image: url("./icons/shutdown.png");
+}
+
+#reboot {
+    background-image: url("./icons/reboot.png");
+    border-radius:0px 30px 30px 0px;
+}
+
+#lock:hover,  #reboot:hover,
+#lock:active, #reboot:active,
+#lock:focus,  #reboot:focus{
+    border-radius: 30px;
+    background-size: 50%; 
+}
